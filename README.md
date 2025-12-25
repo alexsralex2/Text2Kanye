@@ -5,15 +5,9 @@ Input:
  
 query (String) - the sentence to be processed
  
---file (String) [Optional] - Path to sentence list file (default: sentencelist.txt)
- 
---embed-model (String) [Optional] - Sentence embedding model (default: all-MiniLM-L6-v2)
- 
 --rerank (Bool) [Optional] - Rerank or no (default: false)
  
---rerank-model (String) [Optional] - Cross-encoder model to rerank (default: cross-encoder/ms-marco-MiniLM-L-6-v2)
- 
---k-retrieve (Int) [Optional] - How many candidates to retrieve before reranking (default: 20)
+--retrieve-k (Int) [Optional] - How many candidates to retrieve before reranking (default: 20)
  
 --top-k (Int) [Optional] How many matches to print (default: 5)
  
