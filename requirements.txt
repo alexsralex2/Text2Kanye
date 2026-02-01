@@ -1,0 +1,7 @@
+numpy
+transformers
+optimum
+onnxruntime
+onnxruntime-directml
+faiss-cpu
+onnxruntime-rocm
